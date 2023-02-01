@@ -1,13 +1,13 @@
 import React from 'react';
+import MainStyle from './MainStyle';
 import Home from './components/Home';
-import "./main.css";
-
 
 function App() {
   return (
-    <div>
-      Abdullah Kamel Habib
-    </div>
+    <>
+      <MainStyle/>
+      <Home/>
+    </>
   );
   }
 export default App;
