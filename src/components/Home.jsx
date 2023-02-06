@@ -1,5 +1,6 @@
 
 import React from 'react';
+import HomePage from '../pages/HomePage';
 import Container from './Container';
 import Sidebar from './Sidebar/Sidebar';
 import Topbar from './Topbar/Topbar';
@@ -10,9 +11,8 @@ return (
         <Topbar/>
         <Container>
             <Sidebar />
-            <div style={{flex:"4" ,backgroundColor :"red"}}>others</div>
+            <HomePage />
         </Container>
-
     </>
 )
 }
