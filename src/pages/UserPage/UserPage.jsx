@@ -34,7 +34,6 @@ return (
                             <UserShowInfoTitle>10.12.1999</UserShowInfoTitle>
                         </UserShowInfo>
                         <UserShowTitle>Contact Details</UserShowTitle>
-
                         <UserShowInfo>
                             <PhoneAndroidIcon/>
                             <UserShowInfoTitle>+1 123 456 67</UserShowInfoTitle>

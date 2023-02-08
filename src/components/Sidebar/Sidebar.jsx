@@ -28,7 +28,7 @@ return (
                     <SidebarList>
                         <Link className='link' to='/users'>
                             <SidebarListItem >
-                                <PermIdentityIcon/> User
+                                <PermIdentityIcon/> Users
                             </SidebarListItem>
                         </Link>
                         <Link className='link' to='/products'>
