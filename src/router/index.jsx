@@ -1,6 +1,7 @@
 import HomePage from "../pages/HomePage";
 import NewUserPage from "../pages/NewUserPage";
 import ProductListPage from "../pages/ProductListPage";
+import ProductPage from "../pages/ProductPage";
 import UserListPage from "../pages/UserListPage";
 import UserPage from "../pages/UserPage";
 
@@ -11,7 +12,7 @@ export const  PATHS = {
     NEWUSER :'/newUser',
     PRODUCTLIST :'/products',
     PRODUCT :'/product/:productId',
-    NEWPRODUCT :'/newProduct',
+    NEWPRODUCT :'/newproduct',
 };
 
 export const router = [
@@ -20,6 +21,6 @@ export const router = [
     {path:PATHS.USER ,element:<UserPage/>},
     {path:PATHS.NEWUSER ,element:<NewUserPage/>},
     {path:PATHS.PRODUCTLIST ,element:<ProductListPage/>},
-    // {path:PATHS.PRODUCT ,element:<ProductPage/>},
+    {path:PATHS.PRODUCT ,element:<ProductPage/>},
     // {path:PATHS.NEWPRODUCT ,element:<NewProductPage/>},
 ];
