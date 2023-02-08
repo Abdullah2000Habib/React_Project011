@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { AttachMoneyIcon, BarChartIcon, ChatBubbleOutlineIcon, DynamicFeedIcon, LineStyleIcon, MailOutlineIcon, PermIdentityIcon, ReportIcon, SidebarContainer, SidebarList, SidebarListItem, SidebarMenu, SidebarTitle, SidebarWrapper, StorefrontIcon, TimelineIcon, TrendingUpIcon, WorkOutlineIcon } from './style';
 
 export default function Sidebar() {
@@ -9,9 +10,11 @@ return (
                 <SidebarMenu>
                     <SidebarTitle>Dashboard</SidebarTitle>
                     <SidebarList>
-                        <SidebarListItem >
-                            <LineStyleIcon/> Home
-                        </SidebarListItem>
+                        <Link className='link' to='/'>
+                            <SidebarListItem >
+                                <LineStyleIcon/> Home
+                            </SidebarListItem>
+                        </Link>
                         <SidebarListItem >
                             <TimelineIcon/> Analytics
                         </SidebarListItem>
@@ -23,12 +26,16 @@ return (
                 <SidebarMenu>
                     <SidebarTitle>Quick Menu</SidebarTitle>
                     <SidebarList>
-                        <SidebarListItem >
-                            <PermIdentityIcon/> User
-                        </SidebarListItem>
-                        <SidebarListItem >
-                            <StorefrontIcon/> Products
-                        </SidebarListItem>
+                        <Link className='link' to='/users'>
+                            <SidebarListItem >
+                                <PermIdentityIcon/> User
+                            </SidebarListItem>
+                        </Link>
+                        <Link className='link' to='/products'>
+                            <SidebarListItem >
+                                <StorefrontIcon/> Products
+                            </SidebarListItem>
+                        </Link>
                         <SidebarListItem >
                             <AttachMoneyIcon/> Transactions
                         </SidebarListItem>
