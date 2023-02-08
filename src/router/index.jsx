@@ -1,4 +1,5 @@
 import HomePage from "../pages/HomePage";
+import NewProductPage from "../pages/NewProductPage";
 import NewUserPage from "../pages/NewUserPage";
 import ProductListPage from "../pages/ProductListPage";
 import ProductPage from "../pages/ProductPage";
@@ -22,5 +23,5 @@ export const router = [
     {path:PATHS.NEWUSER ,element:<NewUserPage/>},
     {path:PATHS.PRODUCTLIST ,element:<ProductListPage/>},
     {path:PATHS.PRODUCT ,element:<ProductPage/>},
-    // {path:PATHS.NEWPRODUCT ,element:<NewProductPage/>},
+    {path:PATHS.NEWPRODUCT ,element:<NewProductPage/>},
 ];

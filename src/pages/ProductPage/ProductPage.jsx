@@ -10,7 +10,7 @@ return (
         <ProductPageWrapper>
             <ProductTitleContainer>
                 <ProductTitle>Product</ProductTitle>
-                <Link to='newproduct'>
+                <Link to='/newproduct'>
                     <ProductAddButton>Create</ProductAddButton>
                 </Link>
             </ProductTitleContainer>
